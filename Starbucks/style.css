@@ -1,0 +1,96 @@
+header h1{
+    color: #ffffff;
+    font-family: "Arial Narrow";
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 1000;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    line-height: 200px;
+}
+footer h2{
+    color: #f5e33b;
+}
+
+header{
+    width: 95%;
+    height: 100%;
+    margin-top: 70px;
+    background-image: url(bocchi-the-rock@2000x1270.jpg);
+    background-clip: content-box;
+    padding: 35px;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center center;}
+
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #fce36d;
+    font-family: Arial;
+}
+
+article{
+    width: 40%;
+    height: 500px;
+    background-color: #00ff9d;
+    float: left;
+    padding:30px;
+    margin:20px;
+    border: 3px solid black;
+}
+article p{
+    font-family: Arial ;
+    font-size: 30px;
+}
+aside{
+    width: 40%;
+    height: 500px;
+    background-color: aqua;
+    float: right;
+    padding:30px;
+    margin:20px;
+    border: 3px solid black;
+    font-family: Arial ;
+    font-size: 30px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #236acc;
+    clear: both;
+}
+
+ul{
+    margin-left:300px ;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    line-height: 100px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size:20px;
+    line-height: 100px;
+    padding:0 60px;
+    font-family:Arial;
+    color: #ffffff;
+    display:block;
+}
+ul li a:hover{
+    color: #0c34d3;
+}
